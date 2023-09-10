@@ -1,0 +1,53 @@
+divisao por 0 nao e erro, retorna Infinity
+  0/0 é NaN
+
+
+toFixed(): arredonda para dois numeros apos a virgula
+
+function ganhoPorHora(salario, horasTrabalhadasNoMes) {
+
+  const salarioHora = (salario / horasTrabalhadasNoMes); 
+
+  const total = salarioHora.toFixed(2);
+
+  return total;
+
+};
+
+
+toLocaleString(): arredonda para a moda do país
+
+
+function ganhoPorHora(salario, horasTrabalhadasNoMes) {
+
+  const salarioHora = (salario / horasTrabalhadasNoMes); 
+
+  const formatado = salarioHora.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+
+  return formatado;
+
+}
+
+
+
+
+
+
+ARREDONDAMENTO
+
+Math.round(): Faz o arredondamento de um número de ponto flutuante para o inteiro mais próximo.
+
+
+Math.ceil(): Faz o arredondamento para o valor mais alto, também conhecido como teto (ceil em inglês).
+
+Math.floor(): Faz o arredondamento para o valor mais baixo, também conhecido como piso (floor em inglês).
+
+Math.pow() : Faz a exponenciação de 2 números, quando for simples, como ao quadrado(2) ou cubo(3). Recomenda-se usar a multiplicação por ser mais rápido.
+
+Math.sqrt() : Retorna a raiz quadrada de um número.
+
+Math.min(): Retorna o menor valor entre os argumentos.
+
+Math.max(): Retorna o maior valor entre os argumentos.
+
+Math.random(): Retorna um valor randômico (random em inglês) entre 0 e 1, então não teremos um valor esperado para receber.
