@@ -1,0 +1,53 @@
+JS é case sensitive
+
+const cidade = "belo horizonte";
+const input = "Belo Horizonte";
+
+console.log(cidade === input); // false
+
+
+para correção, pode-se padronizar, tanto pra lower quanto pra upper case
+
+const cidade = "belo horizonte";
+const input = "Belo Horizonte";
+
+const inputMinusculo = input.toLowerCase();
+
+console.log(cidade === inputMinusculo); // true
+
+
+
+
+length: utilizada para saber quantos caracteres uma string possui
+
+const senha = "minhaSenha123"
+console.log(senha.length) // 13 caracteres
+
+
+
+
+
+camelCase: Inicia com letra minúscula e a primeira letra de cada palavra em seguida é escrita com letra maiúscula. Por exemplo: minhaVar ou senhaDoUsuario. Esta é a convenção utilizada pelo JavaScript para variáveis e funções.
+
+snake_case: Os espaços são substituídos pelo caractere _ (underline), com todas as palavras em letra minúscula. Por exemplo: minha_variavel ou senha_do_usuario.
+
+kebab-case: Similar ao anterior, porém com os espaços substituídos por hífens. Por exemplo: minha-var ou senha-do-usuario. Esta convenção não pode ser utilizada no JavaScript para variáveis e funções.
+
+PascalCase: Similar ao CamelCase, porém neste caso todas as palavras começam com letra maiúscula. Por exemplo: MinhaVar ou SenhaDoCliente.
+
+
+
+
+
+
+
+
+VARIAVEIS
+
+declaradas com const, let e var
+
+const nao altera valor, respeita escopo de bloco
+
+let só podem ser utilizadas após sua declaração, pois, apesar de serem elevadas, elas não são inicializadas; respeita escopo de bloco
+
+var alteram valor, podendo bagunçar o codigo
