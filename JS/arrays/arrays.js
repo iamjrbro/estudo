@@ -1,12 +1,20 @@
-//lenght: tamanho do array - dividindo pelo tamanho do array 
-const notas = [10, 8, 6, 2]
-const media = (notas[0] + notas[1] + notas[2] + notas[3])/notas.length  
-console.log(media) 
+//Arrays são indexados; cada elemento/item está localizado em uma posição/indíce/index
+
+const nums = [4,1,8,0] //o numero 8 esta no index 3
+console.log(nums)
 
 
+
+
+//deletando um index usando delete
+const nome = ['Julia', 'Carla', 'Silvia', 'Carolina']
+delete nome[2]
+console.log(nome)  //indice 2 retorna como empty item
 
 const no = [10, 6.5, 7.5, 10];
 console.log(no[2]) // imprime o número 7.5, que está no index 2
+
+
 
 
 //Lista ordenada de valores enumerados: string, number, booleano ou outros dados, onde cada um está associado a um identificador numérico, o qual diz a posição daquele dado na lista
@@ -15,52 +23,13 @@ const arrayNumbers = [1,2,3,4,5,6]
 const arrayStrings = ['Ana', 'Stephany']
 
 
+
+
 //Nomeclatura: cada valor é chamado de elemento ou item
 
 const m = [10, 6.5, 7.5, 10]; // array com 4 elementos/iten
 
 
-//Posição: cada elemento/item está localizado em uma posição/indíce/index
-
-const nums = [4,1,8,0] //o numero 8 esta no index 3
-
-
-//Length: especifica o tamanho de um array/o numero de elementos/dados contidos no mesmo
-
-const l = [6,8,7,6]
-console.log( l.length)
-
-
-//Push: adiciona um item ao final da lista, permitindo a alteração do array
-
-const p = ['Julia']
-p.push('Ribeiro')
-console.log(p)
-
-
-const n = [10, 6, 8];
-n.push(7);
-const me = (n[0] + n[1] + n[2]) / n.length;
-console.log(me);
-
-
-//Pop: remove um item
-
-const b = [2.2, 5.6, 4.8]
-b.pop(5.6) //nesse caso, o pop recebeu um parametro e removeu ele. Caso não receba parametro, o ultimo item da lista sera removido
-console.log(b)
-
-
-jantarDeHoje = ['🍔', '🌭', '🍕']
-
-jantarDeHoje.pop()
-jantarDeHoje.pop()
-
-jantarDeHoje.push('🍳')
-jantarDeHoje.push('🥗')
-jantarDeHoje.push('🍏')
-
-console.log(jantarDeHoje)
 
 
 //Array vazio: volta vazio, com index 0 e seu valor é undefined
@@ -70,13 +39,6 @@ console.log(vazio)
 console.log(vazio.length)
 console.log(vazio[0])
 
-
-//CONCAT: concatena dois arrays, mas não altera nenhum deles. Ele retornará uma nova lista
-
-const salaJS = ['Sara', 'Thiago', 'Pedro', 'Camille']
-const salaPy = ['Ju', 'Leo', 'Carlos', 'Dandara']
-sala = salaJS.concat(salaPy)
-console.log(sala)
 
 
 
@@ -107,7 +69,23 @@ const aConcat = aOriginal.concat('Julia', 'Dudu')  //as strings de texto passada
 console.log(aConcat)
 
 
-// new Array()
+
+const funcionarios = [
+    ["Ana", "Juliana"],
+    [40, 24]
+]
+console.log(`${funcionarios [0][0]} tem ${funcionarios[1][0]} de idade`)
+
+
+
+
+// new Array(): outra forma de criar um array, chamada de array construtor, usando (); é pouco utilizado
+
+const nombres = new Array ('Lucas', 'Miguel', 'Vinicius', 'Jorginho')
+nombres[4] = 'Fabricio'
+console.log(nombres)
+
+
 
 const destinosViagem = new Array(
     `São Paulo`
@@ -130,3 +108,13 @@ if (idadeComprador >= 18){
 }
 
 console.log(viagens)
+
+
+//Valor por referência
+
+const marca = ['Brastemp', 'Eletrolux']
+const novaMarca = marca;
+novaMarca.pop()
+console.log(novaMarca)
+
+
