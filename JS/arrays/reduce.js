@@ -5,5 +5,5 @@
 
 const a1 = [1,2,3,4]
 const vInicial = 0
-const somaComVInicicial = a1.reduce((acumulador, valorAtual)=>acumulador+valorAtual,vInicial)
-console.log(somaComVInicicial)
+const somaComVInicial = a1.reduce((acumulador, valorAtual)=>acumulador+valorAtual,vInicial)
+console.log(somaComVInicial)
