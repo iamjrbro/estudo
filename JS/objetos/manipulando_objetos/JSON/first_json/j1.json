@@ -1,0 +1,12 @@
+{
+    "nome": "Juliana",
+    "idade": 24,
+    "email": "juliana@gtmail.com",
+    "telefone": ["98871718817", "97761617717"],
+    "endereco":{
+        "rua": "Rangel Pestana",
+        "numero": 290,
+        "apartamento": true,
+        "complemento": "ap 008"
+    }
+}
