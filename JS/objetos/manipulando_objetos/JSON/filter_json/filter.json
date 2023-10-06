@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Marlon",
+        "age": 34,
+        "email": "marlon@mail.com",
+        "telephones": ["8886771777", "28189110910"],
+        "address": ["St. Patrick Avenue", 444]
+    },
+    {
+        "name": "Anne",
+        "age": 18,
+        "email": "anne@mail.com",
+        "telephones": "898910010",
+        "apartament": true,
+        "address": ["Lauren Geneve St.", 222]
+    },
+    {
+        "name": "Sara",
+        "age": 14,
+        "email": "sara@mail.com",
+        "telephones": ["99010119198"],
+        "address": ["Conrad Conny", 888]
+    },
+    {
+        "name": "Donald",
+        "age": 38,
+        "email": "donald@mail.com",
+        "telephones": "67377009",
+        "apartament": true,
+        "complement": "apartament 212",
+        "address": ["Mainroll Duch", 900]
+    },
+    {
+        "name": "Ester",
+        "age": 90,
+        "email": "ester@mail.com",
+        "telephones": "8998988737",
+        "address": ["Jolie Clever", 824]
+    },
+    {
+        "name": "Alice",
+        "age": 23,
+        "email": "alice@mail.com",
+        "telephones": "54665466",
+        "apartament": true,
+        "address": ["St Klony St.", 777]
+    },
+    {
+        "name": "Carol",
+        "age": 89,
+        "email": "carol@mail.com",
+        "telephones": "8987710010",
+        "apartament": true,
+        "address": ["June Gury St.", 333]
+    }
+]
+
