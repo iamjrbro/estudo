@@ -1,0 +1,27 @@
+COMANDOS NPM
+
+npm install: instala td
+
+npm install express: instala express na sua última versão e atualiza automaticamente, caso atualizações sejam liberadas ("^4.18.2" fica o acento circunflexo ali do lado)
+
+npm install express -E: instala a última versão disponível e nunca atualizará o mesmo
+
+npm install express@: permite que você escolha a versão do express a ser instalada
+
+npm update: atualiza as coisas
+
+npm install express –save-dev: move o express para a dependência de desenvolvimento
+
+npm install express –save-prod: move o express para a dependência de produção
+
+
+dependencies/dependencias de desenvolvimento: webpack, babel, etc, responsáveis por gerar o arquivo final, somente quando se está desenvolvendo. O webpack assiste o codigo/usado somente quando se está editando algo no ambiente de desenvolvimento, que, quando salvo, é transformado em outro código é enviado para o bundle. Quando é feito deploy da aplicação, o que de fato será usado é o bundle, e não o código fonte em si
+
+
+npm unstall: desinstala
+
+npm ls: mostra as dependencias instaladas (todas, incluindo as que vem com os pacotes)
+
+npm ls - -depth 0: mostra somentes as dependencias que o dev instalou
+
+npm outdated: pacotes desatualizados
